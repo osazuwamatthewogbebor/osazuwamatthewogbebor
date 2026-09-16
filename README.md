@@ -69,18 +69,6 @@ RAG systems, AI-powered support tools, and practical agent integrations where AI
 
 ## Selected Engineering Work
 
-### FinCore
-
-**Production-oriented digital financial services platform**
-
-A full product-engineering project covering financial accounts, transactions, authentication, security, observability, testing, infrastructure, and an AI-powered support system.
-
-**Focus:** financial domain modelling · APIs · PostgreSQL · security · observability · RAG · DevOps
-
-[Repository](https://github.com/osazuwamatthewogbebor/fincore)
-
----
-
 ### Fintech Ledger Engine
 
 **Double-entry ledger and transaction processing engine**
@@ -126,6 +114,29 @@ The system explores:
 **Stack:** TypeScript · Node.js · Express · Redis · BullMQ · PostgreSQL · Docker
 
 [Repository](https://github.com/osazuwamatthewogbebor/multi-tenant-notification-engine)
+
+---
+
+### Remembr
+
+**Accessibility-first care platform for seniors and family caregivers**
+
+A two-sided product: a high-contrast, zero-password interface for users
+living with memory loss, paired with a real-time caregiver dashboard.
+Built for the 3MTT showcase and deployed to production.
+
+The system covers:
+
+* device pairing without accounts, passwords or PINs (6-digit code)
+* multi-language voice output — English, Hausa, Igbo, Yoruba, Pidgin
+* TTS with a primary/fallback provider chain and graceful degradation
+* real-time state sync between patient device and caregiver dashboard
+* geolocation-backed navigation and SOS emergency flow
+* Supabase auth and Postgres-backed state
+
+**Stack:** TypeScript · React · Express · Supabase (PostgreSQL) · Gemini · Mistral · Docker
+
+[Repository](https://github.com/osazuwamatthewogbebor/Remembr) · [Live](https://remembr.onrender.com)
 
 ---
 
