@@ -93,6 +93,18 @@ The system explores:
 
 ---
 
+### Nearby Help Agent
+
+**AI-powered nearby assistance agent**
+
+An AI agent project built with Mastra and integrated with Telex, exploring how agent-based systems can connect user requests with location-aware assistance.
+
+**Focus:** AI agents · tool integration · API design · automation
+
+[Repository](https://github.com/osazuwamatthewogbebor/nearby-help-agent-using-mastra-adn-telex)
+
+---
+
 ### Multi-Tenant Notification Engine
 
 **Asynchronous notification ingestion and delivery platform**
@@ -149,18 +161,6 @@ A safety-focused backend supporting authentication, emergency contacts, SOS aler
 **Stack:** Node.js · Express · MySQL · Sequelize · JWT · Pino · Geoapify
 
 [Repository](https://github.com/osazuwamatthewogbebor/safetrip-backend-v3)
-
----
-
-### Nearby Help Agent
-
-**AI-powered nearby assistance agent**
-
-An AI agent project built with Mastra and integrated with Telex, exploring how agent-based systems can connect user requests with location-aware assistance.
-
-**Focus:** AI agents · tool integration · API design · automation
-
-[Repository](https://github.com/osazuwamatthewogbebor/nearby-help-agent-using-mastra-adn-telex)
 
 ---
 
