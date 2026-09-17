@@ -69,6 +69,31 @@ RAG systems, AI-powered support tools, and practical agent integrations where AI
 
 ## Selected Engineering Work
 
+### GitHub Triage Agent
+
+**Autonomous issue-triage pipeline with multi-provider LLM failover**
+
+A two-stage agentic pipeline that discovers open-source issues worth fixing, researches them
+against the web and the project's own contributing docs, and delivers an implementation plan
+to Discord. Stage one drives an LLM agent through live GitHub search tools; stage two drains
+what it found.
+
+The system explores:
+
+* agentic tool-calling loops over live GitHub search
+* strategy-based provider abstraction with automatic failover
+* graceful degradation across provider errors and unusable responses
+* Zod validation of every tool argument and model reply
+* GitHub OAuth device flow (RFC 8628) with token caching
+* durable deduplicating queue across runs
+* compile-time contract checks under strict TypeScript
+
+**Stack:** TypeScript · Node.js · OpenAI SDK · Mistral · OpenRouter · Zod · GitHub Actions
+
+[Repository](https://github.com/osazuwamatthewogbebor/repo-triage-app)
+
+---
+
 ### Fintech Ledger Engine
 
 **Double-entry ledger and transaction processing engine**
