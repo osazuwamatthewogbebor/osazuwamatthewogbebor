@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Osazuwa Matthew Ogbebor</h1>
 
-<h3 align="center">Software Engineer · Backend & Systems</h3>
+<h3 align="center">Software Engineer · Full-stack, Backend & Systems</h3>
 
 <p align="center">
-  I build backend systems with a focus on correctness, reliability, security, and maintainability.
+  I build full-stack and backend systems with a focus on correctness, reliability, security, and maintainability.
 </p>
 
 <p align="center">
