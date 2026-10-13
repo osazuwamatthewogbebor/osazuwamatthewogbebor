@@ -81,7 +81,7 @@ RAG systems, AI-powered support tools, and practical agent integrations where AI
 | **Fintech Ledger Engine** | Double-Entry Transaction Ledger | TypeScript · PostgreSQL · Docker · Vitest | [Code](https://github.com/osazuwamatthewogbebor/fintech-ledger-engine) |
 | **Notification Engine** | Asynchronous Job Ingestion Platform | TypeScript · Redis · BullMQ · PostgreSQL | [Code](https://github.com/osazuwamatthewogbebor/multi-tenant-notification-engine) |
 | **GitHub Triage Agent** | Autonomous Issue-Triage Pipeline | TypeScript · OpenAI SDK · Mistral · Zod | [Code](https://github.com/osazuwamatthewogbebor/repo-triage-app) |
-| **FootKart** | Responsive Footwear Storefront | HTML5 · CSS3 · Responsive Design | [Live Store ↗](https://footkartosazuwa.netlify.app/) |
+| **FoodKart** | On-Demand Food Delivery Platform | React · Vite · Tailwind CSS | [Live Platform ↗](https://foodkartosazuwa.netlify.app/) |
 | **Restaurant Menu** | Interactive Food Catalog & Filtering | React · Component Architecture · CSS3 | [Code](https://github.com/osazuwamatthewogbebor/restaurant-menu) |
 | **ASCII Image Service** | Pure Go Image Processing Microservice | Go Standard Library (`net/http`, `image`) | [Code](https://github.com/osazuwamatthewogbebor/ascii-image-service) |
 
@@ -189,22 +189,24 @@ The system explores:
 
 ---
 
-#### FootKart
+#### FoodKart
 
-**Responsive Footwear Storefront & Catalog**
+**On-Demand Food Delivery & Restaurant Platform**
 
-A clean, responsive static e-commerce storefront for footwear, featuring structured product grid presentations, fluid layouts, and mobile-friendly browsing.
+A modern web application and landing platform for an on-demand food delivery service that connects diners with local restaurants and fast courier dispatch.
 
 The system explores:
 
-* responsive grid and flexbox layout architecture for footwear product displays
-* mobile-first design and navigation patterns
-* modern CSS styling, typography, and card-based product showcases
-* production static site deployment via Netlify
+* interactive accordion FAQ system with dynamic state management
+* responsive multi-tier customer testimonial cards with role-based social proof
+* vendor and rider onboarding call-to-action flows ("Become a Rider" / "Become a Vendor")
+* responsive mobile-first UI using modern Tailwind CSS grid and flexbox layouts
+* app download integration for App Store and Google Play platforms
+* single-page application (SPA) deployment and optimization on Netlify
 
-**Stack:** HTML5 · CSS3 · JavaScript · Netlify
+**Stack:** React · Vite · Tailwind CSS · JavaScript · Netlify
 
-[Live Store ↗](https://footkartosazuwa.netlify.app/)
+[Live Platform ↗](https://foodkartosazuwa.netlify.app/)
 
 ---
 
