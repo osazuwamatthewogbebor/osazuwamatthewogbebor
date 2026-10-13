@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Engineering reliable web applications, production APIs, and high-integrity financial systems.</strong><br>
-  <i>First-Class Engineering Honours · 6 Live Deployments · Systems, Backend & Full-Stack Focus</i>
+  <i>First-Class Engineering Honours · Live Deployments · Systems, Backend & Full-Stack Focus</i>
 </p>
 
 <p align="center">
@@ -29,11 +29,11 @@
 
 I am a software engineer specializing in backend systems, distributed architectures, and full-stack product engineering. My work centers on **building software that remains correct, predictable, and performant as business complexity and scale grow.**
 
-* 🎓 **First-Class B.Eng.** from the University of Benin.
-* 🚀 **Production Deployments** live across custom domains, Vercel, Netlify, and Render.
-* 🛡️ **Systems & Concurrency Rigor:** Hands-on experience designing double-entry ledgers, deterministic lock ordering, multi-tenant boundaries, and asynchronous queue workers.
-* 💡 **Core Stack:** Go, TypeScript/Node.js, Python, PostgreSQL, Redis, Docker, and React.
-* 🤝 **Fellowship:** Trained through cybersecurity practice and the **01Edu / Learn2EarnNG Engineering Fellowship**.
+* **First-Class B.Eng.** from the University of Benin.
+* **Production Deployments** live across custom domains, Vercel, Netlify, and Render.
+* **Systems & Concurrency Rigor:** Hands-on experience designing double-entry ledgers, deterministic lock ordering, multi-tenant boundaries, and asynchronous queue workers.
+* **Core Stack:** Go, TypeScript/Node.js, Python, PostgreSQL, Redis, Docker, and React.
+* **Fellowship:** Trained through cybersecurity practice and the **01Edu / Learn2EarnNG Engineering Fellowship**.
 
 ---
 
@@ -397,19 +397,6 @@ The system explores:
 ### Engineering Practices
 
 `Domain Modeling` · `Concurrency` · `Distributed Systems` · `REST APIs` · `Authentication` · `Application Security` · `Testing` · `Observability` · `Docker` · `CI/CD`
-
----
-
-## GitHub Activity & Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=osazuwamatthewogbebor&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=osazuwamatthewogbebor&layout=compact&theme=tokyonight" alt="Most Used Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=osazuwamatthewogbebor&theme=tokyonight" alt="GitHub Streak" />
-</p>
 
 ---
 
