@@ -124,7 +124,15 @@ The system explores:
 
 An AI agent project built with Mastra and integrated with Telex, exploring how agent-based systems can connect user requests with location-aware assistance.
 
-**Focus:** AI agents · tool integration · API design · automation
+The system explores:
+
+* agentic workflow orchestration using the Mastra framework
+* location-aware assistance and geospatial query routing
+* Telex messaging and webhook integration
+* structured tool execution and prompt pipelines
+* decoupled request handling and asynchronous notifications
+
+**Stack:** TypeScript · Node.js · Mastra · Telex · REST APIs
 
 [Repository](https://github.com/osazuwamatthewogbebor/nearby-help-agent-using-mastra-adn-telex)
 
@@ -162,7 +170,7 @@ A two-sided product: a high-contrast, zero-password interface for users
 living with memory loss, paired with a real-time caregiver dashboard.
 Built for the 3MTT showcase and deployed to production.
 
-The system covers:
+The system explores:
 
 * device pairing without accounts, passwords or PINs (6-digit code)
 * multi-language voice output — English, Hausa, Igbo, Yoruba, Pidgin
@@ -182,6 +190,15 @@ The system covers:
 **Backend API for a real-time travel safety application**
 
 A safety-focused backend supporting authentication, emergency contacts, SOS alerts, check-ins, safety timelines and nearby emergency services.
+
+The system explores:
+
+* real-time emergency dispatch and SOS alert triggering
+* safety timeline tracking and automated user check-ins
+* geospatial emergency service lookups via Geoapify API
+* JWT authentication and role-based access control
+* structured application logging and auditability with Pino
+* relational schema design and migrations with Sequelize ORM
 
 **Stack:** Node.js · Express · MySQL · Sequelize · JWT · Pino · Geoapify
 
@@ -207,6 +224,16 @@ A safety-focused backend supporting authentication, emergency contacts, SOS aler
   <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/REST%20APIs-02569B?style=flat-square" />
+</p>
+
+### Frontend
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 </p>
 
 ### Data & Infrastructure
