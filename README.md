@@ -60,7 +60,7 @@ Agentic pipelines with multi-provider LLM failover, structured Zod/schema valida
 | Project | Domain / Focus | Key Tech | Status & Links |
 | :--- | :--- | :--- | :--- |
 | **Vortex Studio** | In-Browser DAW & FFmpeg Media Toolkit | Next.js · WebAssembly · Web Audio API | [Live Demo ↗](https://vortex-studio-media.vercel.app/) · [Code](https://github.com/osazuwamatthewogbebor/vortex-studio) |
-| **WastePickup** | Enterprise Waste Management B2B SaaS | Next.js · Prisma · PostgreSQL | [Live Platform ↗](https://wastepickup.ng) · [Code](https://github.com/osazuwamatthewogbebor/enterprise-waste-pickup-scheduler) |
+| **WastePickup** | Enterprise Waste Management B2B SaaS | Next.js · Prisma · PostgreSQL | [Live Platform ↗](https://enterprise-waste-pickup.vercel.app/) · [Code](https://github.com/osazuwamatthewogbebor/enterprise-waste-pickup-scheduler) |
 | **SafeVerify** | Pharmaceutical Authenticity Portal | React 18 · Vite · Tailwind · Framer Motion | [Live Demo ↗](https://safeverify.netlify.app/) · [Code](https://github.com/osazuwamatthewogbebor/drug-verifier-react) |
 | **Remembr** | Care Platform for Senior Memory Loss | React · Express · Supabase | [Live App ↗](https://remembr.onrender.com) · [Code](https://github.com/osazuwamatthewogbebor/Remembr) |
 | **Honey Shop** | Artisanal E-Commerce Storefront | HTML5 · CSS3 · Responsive Design | [Live Store ↗](https://honey-shop-osazuwa-ogbebor.netlify.app/) · [Code](https://github.com/osazuwamatthewogbebor/honey-shop-osazuwa-ogbebor) |
