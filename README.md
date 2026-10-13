@@ -81,7 +81,7 @@ RAG systems, AI-powered support tools, and practical agent integrations where AI
 | **Fintech Ledger Engine** | Double-Entry Transaction Ledger | TypeScript · PostgreSQL · Docker · Vitest | [Code](https://github.com/osazuwamatthewogbebor/fintech-ledger-engine) |
 | **Notification Engine** | Asynchronous Job Ingestion Platform | TypeScript · Redis · BullMQ · PostgreSQL | [Code](https://github.com/osazuwamatthewogbebor/multi-tenant-notification-engine) |
 | **GitHub Triage Agent** | Autonomous Issue-Triage Pipeline | TypeScript · OpenAI SDK · Mistral · Zod | [Code](https://github.com/osazuwamatthewogbebor/repo-triage-app) |
-| **FootKart** | Footwear E-Commerce Cart & Ordering | React · Vite · Netlify · CSS3 | [Live Store ↗](https://footkartosazuwa.netlify.app/) · [Code](https://github.com/osazuwamatthewogbebor/foot-kart) |
+| **FootKart** | Responsive Footwear Storefront | HTML5 · CSS3 · Responsive Design | [Live Store ↗](https://footkartosazuwa.netlify.app/) |
 | **Restaurant Menu** | Interactive Food Catalog & Filtering | React · Component Architecture · CSS3 | [Code](https://github.com/osazuwamatthewogbebor/restaurant-menu) |
 | **ASCII Image Service** | Pure Go Image Processing Microservice | Go Standard Library (`net/http`, `image`) | [Code](https://github.com/osazuwamatthewogbebor/ascii-image-service) |
 
@@ -191,20 +191,20 @@ The system explores:
 
 #### FootKart
 
-**Interactive Footwear E-Commerce Storefront & Cart Engine**
+**Responsive Footwear Storefront & Catalog**
 
-A modern React e-commerce application providing a responsive shopping experience with interactive product catalogs and dynamic cart state management.
+A clean, responsive static e-commerce storefront for footwear, featuring structured product grid presentations, fluid layouts, and mobile-friendly browsing.
 
 The system explores:
 
-* centralized cart state management (item additions, quantity adjustment, removal)
-* multi-criteria product filtering by category, size, and price range
-* dynamic price calculation, discount logic, and order summary generation
-* component-driven architecture with reusable UI building blocks
+* responsive grid and flexbox layout architecture for footwear product displays
+* mobile-first design and navigation patterns
+* modern CSS styling, typography, and card-based product showcases
+* production static site deployment via Netlify
 
-**Stack:** React · Vite · Netlify · JavaScript · CSS3 · State Management
+**Stack:** HTML5 · CSS3 · JavaScript · Netlify
 
-[Repository](https://github.com/osazuwamatthewogbebor/foot-kart) · [Live Store ↗](https://footkartosazuwa.netlify.app/)
+[Live Store ↗](https://footkartosazuwa.netlify.app/)
 
 ---
 
