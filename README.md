@@ -81,7 +81,7 @@ RAG systems, AI-powered support tools, and practical agent integrations where AI
 | **Fintech Ledger Engine** | Double-Entry Transaction Ledger | TypeScript · PostgreSQL · Docker · Vitest | [Code](https://github.com/osazuwamatthewogbebor/fintech-ledger-engine) |
 | **Notification Engine** | Asynchronous Job Ingestion Platform | TypeScript · Redis · BullMQ · PostgreSQL | [Code](https://github.com/osazuwamatthewogbebor/multi-tenant-notification-engine) |
 | **GitHub Triage Agent** | Autonomous Issue-Triage Pipeline | TypeScript · OpenAI SDK · Mistral · Zod | [Code](https://github.com/osazuwamatthewogbebor/repo-triage-app) |
-| **FootKart** | Footwear E-Commerce Cart & Ordering | React · State Management · CSS3 | [Code](https://github.com/osazuwamatthewogbebor/foot-kart) |
+| **FootKart** | Footwear E-Commerce Cart & Ordering | React · Vite · Netlify · CSS3 | [Live Store ↗](https://footkartosazuwa.netlify.app/) · [Code](https://github.com/osazuwamatthewogbebor/foot-kart) |
 | **Restaurant Menu** | Interactive Food Catalog & Filtering | React · Component Architecture · CSS3 | [Code](https://github.com/osazuwamatthewogbebor/restaurant-menu) |
 | **ASCII Image Service** | Pure Go Image Processing Microservice | Go Standard Library (`net/http`, `image`) | [Code](https://github.com/osazuwamatthewogbebor/ascii-image-service) |
 
@@ -202,9 +202,9 @@ The system explores:
 * dynamic price calculation, discount logic, and order summary generation
 * component-driven architecture with reusable UI building blocks
 
-**Stack:** React · JavaScript · CSS3 · State Management
+**Stack:** React · Vite · Netlify · JavaScript · CSS3 · State Management
 
-[Repository](https://github.com/osazuwamatthewogbebor/foot-kart)
+[Repository](https://github.com/osazuwamatthewogbebor/foot-kart) · [Live Store ↗](https://footkartosazuwa.netlify.app/)
 
 ---
 
