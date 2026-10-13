@@ -69,32 +69,167 @@ RAG systems, AI-powered support tools, and practical agent integrations where AI
 
 ## Selected Engineering Work
 
-### GitHub Triage Agent
+### Quick Matrix: Live Demos & Repositories
 
-**Autonomous issue-triage pipeline with multi-provider LLM failover**
-
-A two-stage agentic pipeline that discovers open-source issues worth fixing, researches them
-against the web and the project's own contributing docs, and delivers an implementation plan
-to Discord. Stage one drives an LLM agent through live GitHub search tools; stage two drains
-what it found.
-
-The system explores:
-
-* agentic tool-calling loops over live GitHub search
-* strategy-based provider abstraction with automatic failover
-* graceful degradation across provider errors and unusable responses
-* Zod validation of every tool argument and model reply
-* GitHub OAuth device flow (RFC 8628) with token caching
-* durable deduplicating queue across runs
-* compile-time contract checks under strict TypeScript
-
-**Stack:** TypeScript · Node.js · OpenAI SDK · Mistral · OpenRouter · Zod · GitHub Actions
-
-[Repository](https://github.com/osazuwamatthewogbebor/repo-triage-app)
+| Project | Domain / Focus | Key Tech | Status & Links |
+| :--- | :--- | :--- | :--- |
+| **Vortex Studio** | In-Browser DAW & FFmpeg Media Toolkit | Next.js · WebAssembly · Web Audio API | [Live Demo ↗](https://vortex-studio-media.vercel.app/) · [Code](https://github.com/osazuwamatthewogbebor/vortex-studio) |
+| **WastePickup** | Enterprise Waste Management B2B SaaS | Next.js · Prisma · PostgreSQL | [Live Platform ↗](https://wastepickup.ng) · [Code](https://github.com/osazuwamatthewogbebor/enterprise-waste-pickup-scheduler) |
+| **SafeVerify** | Pharmaceutical Authenticity Portal | React 18 · Vite · Tailwind · Framer Motion | [Live Demo ↗](https://safeverify.netlify.app/) · [Code](https://github.com/osazuwamatthewogbebor/drug-verifier-react) |
+| **Remembr** | Care Platform for Senior Memory Loss | React · Express · Supabase | [Live App ↗](https://remembr.onrender.com) · [Code](https://github.com/osazuwamatthewogbebor/Remembr) |
+| **Honey Shop** | Artisanal E-Commerce Storefront | HTML5 · CSS3 · Responsive Design | [Live Store ↗](https://honey-shop-osazuwa-ogbebor.netlify.app/) · [Code](https://github.com/osazuwamatthewogbebor/honey-shop-osazuwa-ogbebor) |
+| **Fintech Ledger Engine** | Double-Entry Transaction Ledger | TypeScript · PostgreSQL · Docker · Vitest | [Code](https://github.com/osazuwamatthewogbebor/fintech-ledger-engine) |
+| **Notification Engine** | Asynchronous Job Ingestion Platform | TypeScript · Redis · BullMQ · PostgreSQL | [Code](https://github.com/osazuwamatthewogbebor/multi-tenant-notification-engine) |
+| **GitHub Triage Agent** | Autonomous Issue-Triage Pipeline | TypeScript · OpenAI SDK · Mistral · Zod | [Code](https://github.com/osazuwamatthewogbebor/repo-triage-app) |
+| **FootKart** | Footwear E-Commerce Cart & Ordering | React · State Management · CSS3 | [Code](https://github.com/osazuwamatthewogbebor/foot-kart) |
+| **Restaurant Menu** | Interactive Food Catalog & Filtering | React · Component Architecture · CSS3 | [Code](https://github.com/osazuwamatthewogbebor/restaurant-menu) |
+| **ASCII Image Service** | Pure Go Image Processing Microservice | Go Standard Library (`net/http`, `image`) | [Code](https://github.com/osazuwamatthewogbebor/ascii-image-service) |
 
 ---
 
-### Fintech Ledger Engine
+### Interactive & Full-Stack Applications
+
+#### Vortex Studio
+
+**In-Browser DAW & FFmpeg WebAssembly Media Toolkit**
+
+A browser-native Digital Audio Workstation and media manipulation suite operating entirely in client RAM via WebAssembly and the Web Audio API. Eliminates cloud uploads and privacy risks by running heavy audio cutting and media conversions directly on-device.
+
+The system explores:
+
+* real-time multi-track DAW timeline with in-memory ripple cut & paste
+* client-side media transcoding and stream muxing via FFmpeg WebAssembly
+* Web Audio API integration for real-time waveform rendering and peak metering
+* zero-server-upload architecture ensuring 100% data privacy and instant processing
+* responsive, hardware-accelerated studio UI with low-latency event scheduling
+
+**Stack:** TypeScript · Next.js · WebAssembly (FFmpeg) · Web Audio API · Tailwind CSS
+
+[Repository](https://github.com/osazuwamatthewogbebor/vortex-studio) · [Live Demo ↗](https://vortex-studio-media.vercel.app/)
+
+---
+
+#### WastePickup Scheduler
+
+**Enterprise Waste Management Operations & Route Logistics SaaS**
+
+A B2B2C enterprise platform modernizing municipal and private waste collection operations across Nigeria. Features automated route optimization, driver dispatch, resident geolocation, and automated billing workflows.
+
+The system explores:
+
+* drag-and-drop route optimization and zone-based workload balancing
+* real-time driver dispatch tracking and mobile-responsive route updating
+* resident geolocation indexing and automated invoice generation
+* multi-tenant database modeling with Prisma ORM and PostgreSQL
+* enterprise operations dashboard with automated notification workflows
+
+**Stack:** TypeScript · Next.js · Prisma ORM · PostgreSQL · Tailwind CSS
+
+[Repository](https://github.com/osazuwamatthewogbebor/enterprise-waste-pickup-scheduler) · [Live Platform ↗](https://wastepickup.ng)
+
+---
+
+#### SafeVerify
+
+**Pharmaceutical Verification & Counterfeit Drug Detection Portal**
+
+A healthcare trust platform designed to combat the circulation of counterfeit medications globally through real-time code authentication and safety recall alerts.
+
+The system explores:
+
+* real-time authenticity verification using a 12-digit security code algorithm
+* distributed verification hash checks without storing sensitive patient health data
+* live safety alert feeds and drug recall tracking from international health bodies
+* mobile-first medical-grade aesthetic with fluid Framer Motion transitions
+* anonymous client-side verification history with local storage caching
+
+**Stack:** React 18 · Vite · Tailwind CSS · Framer Motion · Lucide React
+
+[Repository](https://github.com/osazuwamatthewogbebor/drug-verifier-react) · [Live Demo ↗](https://safeverify.netlify.app/)
+
+---
+
+#### Remembr
+
+**Accessibility-first care platform for seniors and family caregivers**
+
+A two-sided product: a high-contrast, zero-password interface for users living with memory loss, paired with a real-time caregiver dashboard. Built for the 3MTT showcase and deployed to production.
+
+The system explores:
+
+* device pairing without accounts, passwords or PINs (6-digit code)
+* multi-language voice output — English, Hausa, Igbo, Yoruba, Pidgin
+* TTS with a primary/fallback provider chain and graceful degradation
+* real-time state sync between patient device and caregiver dashboard
+* geolocation-backed navigation and SOS emergency flow
+* Supabase auth and Postgres-backed state
+
+**Stack:** TypeScript · React · Express · Supabase (PostgreSQL) · Gemini · Mistral · Docker
+
+[Repository](https://github.com/osazuwamatthewogbebor/Remembr) · [Live App ↗](https://remembr.onrender.com)
+
+---
+
+#### Honey Shop
+
+**Artisanal E-Commerce Storefront & Product Showcase**
+
+A lightweight, responsive e-commerce storefront for pure honey products built with clean semantic design and modern CSS layouts.
+
+The system explores:
+
+* fluid grid and flexbox layout structuring for high-converting product showcases
+* mobile-optimized navigation with interactive cart previews
+* modern CSS typography and responsive design without heavy framework overhead
+* production deployment and automated preview workflows via Netlify
+
+**Stack:** HTML5 · CSS3 · JavaScript · Netlify
+
+[Repository](https://github.com/osazuwamatthewogbebor/honey-shop-osazuwa-ogbebor) · [Live Store ↗](https://honey-shop-osazuwa-ogbebor.netlify.app/)
+
+---
+
+#### FootKart
+
+**Interactive Footwear E-Commerce Storefront & Cart Engine**
+
+A modern React e-commerce application providing a responsive shopping experience with interactive product catalogs and dynamic cart state management.
+
+The system explores:
+
+* centralized cart state management (item additions, quantity adjustment, removal)
+* multi-criteria product filtering by category, size, and price range
+* dynamic price calculation, discount logic, and order summary generation
+* component-driven architecture with reusable UI building blocks
+
+**Stack:** React · JavaScript · CSS3 · State Management
+
+[Repository](https://github.com/osazuwamatthewogbebor/foot-kart)
+
+---
+
+#### Restaurant Menu
+
+**Interactive Dining Catalog & Dietary Filtering Application**
+
+A dynamic single-page food menu application that enables customers to explore dining selections with instant category and dietary filtering.
+
+The system explores:
+
+* real-time category filtering (breakfast, lunch, dinner, desserts) without page reloads
+* reusable card components displaying price, ingredients, and dish highlights
+* responsive grid layouts providing seamless mobile and desktop viewing
+* clean separation of catalog data models from presentational components
+
+**Stack:** React · JavaScript · CSS3 · Component Architecture
+
+[Repository](https://github.com/osazuwamatthewogbebor/restaurant-menu)
+
+---
+
+### Financial Infrastructure & Systems Engineering
+
+#### Fintech Ledger Engine
 
 **Double-entry ledger and transaction processing engine**
 
@@ -118,27 +253,7 @@ The system explores:
 
 ---
 
-### Nearby Help Agent
-
-**AI-powered nearby assistance agent**
-
-An AI agent project built with Mastra and integrated with Telex, exploring how agent-based systems can connect user requests with location-aware assistance.
-
-The system explores:
-
-* agentic workflow orchestration using the Mastra framework
-* location-aware assistance and geospatial query routing
-* Telex messaging and webhook integration
-* structured tool execution and prompt pipelines
-* decoupled request handling and asynchronous notifications
-
-**Stack:** TypeScript · Node.js · Mastra · Telex · REST APIs
-
-[Repository](https://github.com/osazuwamatthewogbebor/nearby-help-agent-using-mastra-adn-telex)
-
----
-
-### Multi-Tenant Notification Engine
+#### Multi-Tenant Notification Engine
 
 **Asynchronous notification ingestion and delivery platform**
 
@@ -162,30 +277,7 @@ The system explores:
 
 ---
 
-### Remembr
-
-**Accessibility-first care platform for seniors and family caregivers**
-
-A two-sided product: a high-contrast, zero-password interface for users
-living with memory loss, paired with a real-time caregiver dashboard.
-Built for the 3MTT showcase and deployed to production.
-
-The system explores:
-
-* device pairing without accounts, passwords or PINs (6-digit code)
-* multi-language voice output — English, Hausa, Igbo, Yoruba, Pidgin
-* TTS with a primary/fallback provider chain and graceful degradation
-* real-time state sync between patient device and caregiver dashboard
-* geolocation-backed navigation and SOS emergency flow
-* Supabase auth and Postgres-backed state
-
-**Stack:** TypeScript · React · Express · Supabase (PostgreSQL) · Gemini · Mistral · Docker
-
-[Repository](https://github.com/osazuwamatthewogbebor/Remembr) · [Live](https://remembr.onrender.com)
-
----
-
-### SafeTrip Backend
+#### SafeTrip Backend
 
 **Backend API for a real-time travel safety application**
 
@@ -203,6 +295,71 @@ The system explores:
 **Stack:** Node.js · Express · MySQL · Sequelize · JWT · Pino · Geoapify
 
 [Repository](https://github.com/osazuwamatthewogbebor/safetrip-backend-v3)
+
+---
+
+### AI Engineering & Autonomous Agents
+
+#### GitHub Triage Agent
+
+**Autonomous issue-triage pipeline with multi-provider LLM failover**
+
+A two-stage agentic pipeline that discovers open-source issues worth fixing, researches them against the web and the project's own contributing docs, and delivers an implementation plan to Discord. Stage one drives an LLM agent through live GitHub search tools; stage two drains what it found.
+
+The system explores:
+
+* agentic tool-calling loops over live GitHub search
+* strategy-based provider abstraction with automatic failover
+* graceful degradation across provider errors and unusable responses
+* Zod validation of every tool argument and model reply
+* GitHub OAuth device flow (RFC 8628) with token caching
+* durable deduplicating queue across runs
+* compile-time contract checks under strict TypeScript
+
+**Stack:** TypeScript · Node.js · OpenAI SDK · Mistral · OpenRouter · Zod · GitHub Actions
+
+[Repository](https://github.com/osazuwamatthewogbebor/repo-triage-app)
+
+---
+
+#### Nearby Help Agent
+
+**AI-powered nearby assistance agent**
+
+An AI agent project built with Mastra and integrated with Telex, exploring how agent-based systems can connect user requests with location-aware assistance.
+
+The system explores:
+
+* agentic workflow orchestration using the Mastra framework
+* location-aware assistance and geospatial query routing
+* Telex messaging and webhook integration
+* structured tool execution and prompt pipelines
+* decoupled request handling and asynchronous notifications
+
+**Stack:** TypeScript · Node.js · Mastra · Telex · REST APIs
+
+[Repository](https://github.com/osazuwamatthewogbebor/nearby-help-agent-using-mastra-adn-telex)
+
+---
+
+### Systems Microservices in Go
+
+#### ASCII Image Service
+
+**Zero-Dependency Image-to-ASCII Microservice in Pure Go**
+
+A high-efficiency HTTP web service that processes uploaded raster images and converts them into ASCII art using exclusively the Go standard library.
+
+The system explores:
+
+* pure `net/http` request routing and multipart form file streaming
+* per-pixel luminance calculation and contrast adjustment using Go's `image` package
+* zero-external-dependency architecture with standard library primitives
+* comprehensive unit and HTTP handler testing using Go's `testing` package
+
+**Stack:** Go (`net/http`, `image`, `html/template`)
+
+[Repository](https://github.com/osazuwamatthewogbebor/ascii-image-service)
 
 ---
 
@@ -231,7 +388,9 @@ The system explores:
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 </p>
