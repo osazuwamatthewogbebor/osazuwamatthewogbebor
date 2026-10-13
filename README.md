@@ -30,7 +30,7 @@
 I am a software engineer specializing in backend systems, distributed architectures, and full-stack product engineering. My work centers on **building software that remains correct, predictable, and performant as business complexity and scale grow.**
 
 * 🎓 **First-Class B.Eng.** from the University of Benin.
-* 🚀 **6 Production Deployments** live across custom domains, Vercel, Netlify, and Render.
+* 🚀 **Production Deployments** live across custom domains, Vercel, Netlify, and Render.
 * 🛡️ **Systems & Concurrency Rigor:** Hands-on experience designing double-entry ledgers, deterministic lock ordering, multi-tenant boundaries, and asynchronous queue workers.
 * 💡 **Core Stack:** Go, TypeScript/Node.js, Python, PostgreSQL, Redis, Docker, and React.
 * 🤝 **Fellowship:** Trained through cybersecurity practice and the **01Edu / Learn2EarnNG Engineering Fellowship**.
@@ -144,7 +144,7 @@ A two-sided product: a high-contrast, zero-password interface for users living w
 The system explores:
 
 * device pairing without accounts, passwords or PINs (6-digit code)
-* multi-language voice output — English, Hausa, Igbo, Yoruba, Pidgin
+* multi-language voice output - English, Hausa, Igbo, Yoruba, Pidgin
 * TTS with a primary/fallback provider chain and graceful degradation
 * real-time state sync between patient device and caregiver dashboard
 * geolocation-backed navigation and SOS emergency flow
@@ -430,7 +430,7 @@ Current areas of focus include:
 
 ## Education
 
-**B.Eng. — University of Benin**
+**B.Eng. - University of Benin**
 First-Class Honours
 
 **01Edu / Learn2EarnNG Engineering Fellowship**
