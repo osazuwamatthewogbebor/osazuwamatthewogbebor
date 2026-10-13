@@ -400,6 +400,19 @@ The system explores:
 
 ---
 
+## GitHub Activity & Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=osazuwamatthewogbebor&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=osazuwamatthewogbebor&layout=compact&theme=tokyonight" alt="Most Used Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=osazuwamatthewogbebor&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+---
+
 ## Engineering Interests
 
 I'm particularly interested in:
