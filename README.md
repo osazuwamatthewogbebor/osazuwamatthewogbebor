@@ -3,67 +3,53 @@
 <h3 align="center">Software Engineer · Full-stack, Backend & Systems</h3>
 
 <p align="center">
-  I build full-stack and backend systems with a focus on correctness, reliability, security, and maintainability.
+  <strong>Engineering reliable web applications, production APIs, and high-integrity financial systems.</strong><br>
+  <i>First-Class Engineering Honours · 6 Live Deployments · Systems, Backend & Full-Stack Focus</i>
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/osazuwa-ogbebor-24102277">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  <a href="mailto:osazuwamatthewogbebor@gmail.com">
+    <img src="https://img.shields.io/badge/Hire_Me_/_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
   <a href="https://medium.com/@osazuwamatthewogbebor">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
   </a>
-  <a href="mailto:osazuwamatthewogbebor@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+</p>
+
+<p align="center">
+  🟢 <b>Availability:</b> Open to <b>Full-Time Roles</b>, <b>Contract/Freelance Projects</b>, and <b>MVP Buildouts</b>.
 </p>
 
 ---
 
-## About
+## Executive Summary
 
-I'm a software engineer with a backend and systems focus, interested in building software that remains correct and predictable as complexity grows.
+I am a software engineer specializing in backend systems, distributed architectures, and full-stack product engineering. My work centers on **building software that remains correct, predictable, and performant as business complexity and scale grow.**
 
-My work spans:
-
-* backend API and service development
-* distributed and asynchronous systems
-* financial and transaction-processing systems
-* database design and concurrency control
-* authentication and application security
-* containerized development and deployment
-* AI-powered applications and RAG systems
-* full-stack product development when the problem requires it
-
-I primarily work with **Go, TypeScript/Node.js, Python, PostgreSQL and Docker**, while continuing to deepen my systems engineering skills through production-oriented projects.
-
-I hold a **First-Class B.Eng.** from the University of Benin and have developed my engineering practice through hands-on projects, cybersecurity experience, and the **01Edu / Learn2EarnNG Engineering Fellowship**.
-
-I'm currently open to **backend and software engineering opportunities**, particularly roles involving backend systems, distributed systems, infrastructure, fintech, or developer platforms.
+* 🎓 **First-Class B.Eng.** from the University of Benin.
+* 🚀 **6 Production Deployments** live across custom domains, Vercel, Netlify, and Render.
+* 🛡️ **Systems & Concurrency Rigor:** Hands-on experience designing double-entry ledgers, deterministic lock ordering, multi-tenant boundaries, and asynchronous queue workers.
+* 💡 **Core Stack:** Go, TypeScript/Node.js, Python, PostgreSQL, Redis, Docker, and React.
+* 🤝 **Fellowship:** Trained through cybersecurity practice and the **01Edu / Learn2EarnNG Engineering Fellowship**.
 
 ---
 
-## What I Like Building
+## What I Deliver for Clients & Engineering Teams
 
-### Backend & Systems
+### 1. Production MVPs & Full-Stack Web Platforms
+End-to-end web products taken from specification to live deployment. Clean, responsive React and Next.js interfaces paired with robust backend services, automated CI/CD pipelines, and intuitive UX.
 
-APIs and services designed around clear boundaries, predictable failure modes, concurrency safety, and maintainable domain logic.
+### 2. High-Throughput APIs & Distributed Backends
+Scalable services engineered around clear domain boundaries, concurrency safety, predictable failure recovery, and resilient database access patterns (PostgreSQL, Redis, MySQL).
 
-### Distributed Systems
+### 3. Financial Infrastructure & Concurrency Control
+Transaction processing engines designed around financial invariants rather than mutable state: double-entry ledgers, integer minor-unit monetary precision, deterministic lock ordering, and deadlock mitigation.
 
-Asynchronous processing, queues, workers, caching, retries, fault isolation, and service boundaries.
-
-### Financial Infrastructure
-
-Transaction processing, double-entry ledgers, monetary precision, account systems, auditability, and consistency under concurrency.
-
-### Secure Software
-
-Authentication, authorization, input validation, security boundaries, rate limiting, and defensive application design.
-
-### AI Engineering
-
-RAG systems, AI-powered support tools, and practical agent integrations where AI solves a real product problem rather than being added for its own sake.
+### 4. Practical AI & Autonomous Pipelines
+Agentic pipelines with multi-provider LLM failover, structured Zod/schema validation, real-time tool calling, and RAG architectures that automate tedious operational workflows.
 
 ---
 
@@ -153,7 +139,7 @@ The system explores:
 
 **Accessibility-first care platform for seniors and family caregivers**
 
-A two-sided product: a high-contrast, zero-password interface for users living with memory loss, paired with a real-time caregiver dashboard. Built for the 3MTT showcase and deployed to production.
+A two-sided product: a high-contrast, zero-password interface for users living with memory loss, paired with a real-time caregiver dashboard. Developed as a showcase submission for the 3MTT initiative and deployed live to production.
 
 The system explores:
 
@@ -452,16 +438,14 @@ Backend & systems engineering development
 
 ---
 
-## Connect
+## Let's Work Together
 
-<p>
-  <a href="https://linkedin.com/in/osazuwa-ogbebor-24102277">LinkedIn</a>
-  ·
-  <a href="https://medium.com/@osazuwamatthewogbebor">Medium</a>
-  ·
-  <a href="mailto:osazuwamatthewogbebor@gmail.com">Email</a>
-</p>
+Whether you are looking for an engineer to take your product from concept to live production, architect high-throughput backend services, or join your engineering team full-time:
+
+* 📧 **Direct Email:** [osazuwamatthewogbebor@gmail.com](mailto:osazuwamatthewogbebor@gmail.com) *(Fastest response)*
+* 💼 **LinkedIn:** [linkedin.com/in/osazuwa-ogbebor-24102277](https://linkedin.com/in/osazuwa-ogbebor-24102277)
+* 📝 **Technical Writing:** [medium.com/@osazuwamatthewogbebor](https://medium.com/@osazuwamatthewogbebor)
 
 <p align="center">
-  <i>Building systems that are correct by design, resilient under pressure, and useful in the real world.</i>
+  <i>"Building systems that are correct by design, resilient under pressure, and useful in the real world."</i>
 </p>
