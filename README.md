@@ -33,7 +33,7 @@ I am a software engineer specializing in backend systems, distributed architectu
 * **Production Deployments** live across custom domains, Vercel, Netlify, and Render.
 * **Systems & Concurrency Rigor:** Hands-on experience designing double-entry ledgers, deterministic lock ordering, multi-tenant boundaries, and asynchronous queue workers.
 * **Core Stack:** Go, TypeScript/Node.js, Python, PostgreSQL, Redis, Docker, and React.
-* 
+* **Application Security:** Practical grounding in security principles, network defenses, cryptography, and vulnerability automation (Professional Diploma in Cybersecurity, Baze University).
 ---
 
 ## What I Deliver for Clients & Engineering Teams
@@ -69,6 +69,7 @@ Agentic pipelines with multi-provider LLM failover, structured Zod/schema valida
 | **FoodKart** | On-Demand Food Delivery Platform | React · Vite · Tailwind CSS | [Live Platform ↗](https://foodkartosazuwa.netlify.app/) |
 | **Restaurant Menu** | Interactive Food Catalog & Filtering | React · Component Architecture · CSS3 | [Code](https://github.com/osazuwamatthewogbebor/restaurant-menu) |
 | **ASCII Image Service** | Pure Go Image Processing Microservice | Go Standard Library (`net/http`, `image`) | [Code](https://github.com/osazuwamatthewogbebor/ascii-image-service) |
+| **Web Vulnerability Scanner** | Automated XSS & SQLi Detection CLI | Python · BeautifulSoup4 · Security Testing | [Code](https://github.com/osazuwamatthewogbebor/XSS-SQL-Injection-Vulnerability-Scanner) |
 
 ---
 
@@ -347,6 +348,29 @@ The system explores:
 **Stack:** Go (`net/http`, `image`, `html/template`)
 
 [Repository](https://github.com/osazuwamatthewogbebor/ascii-image-service)
+
+---
+
+### Application Security & Vulnerability Tooling
+
+#### XSS & SQL Injection Vulnerability Scanner
+
+**Automated CLI Web Vulnerability Scanner & Crawler**
+
+A command-line web penetration testing tool written in Python that crawls target web applications and systematically audits endpoints for reflected Cross-Site Scripting (XSS) and SQL injection (SQLi) vulnerabilities using heuristic payload injection. Developed as the capstone project for the Professional Diploma in Cybersecurity (IDEAS Emerging Technology Skills Training) at Baze University, Abuja.
+
+The system explores:
+
+* reflected XSS payload injection testing 20 distinct attack vectors (script tags, inline event handlers, SVG objects, iframe triggers, URL-encoded variations)
+* error-based SQL injection detection sending 19 SQLi payloads and matching responses against 20 database error signatures (MySQL, SQL Server, SQLite, PostgreSQL)
+* time-based blind SQL injection heuristics detecting response latency anomalies (>5s delay thresholds)
+* recursive site crawler parsing same-domain hyperlinks with BeautifulSoup, supporting single-URL, link-capped (`--max-links N`), and full-site crawl modes
+* automated audit reporting exporting structured vulnerability findings to `report.txt` via `--report`
+* interactive CLI execution loop designed for rapid, repeatable targeted security scans
+
+**Stack:** Python · Requests · BeautifulSoup4 · Security Auditing · Heuristic Analysis
+
+[Repository](https://github.com/osazuwamatthewogbebor/XSS-SQL-Injection-Vulnerability-Scanner)
 
 ---
 
