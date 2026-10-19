@@ -432,8 +432,8 @@ Current areas of focus include:
 **B.Eng. - University of Benin**
 First-Class Honours
 
-**01Edu / Learn2EarnNG Engineering Fellowship**
-Backend & systems engineering development
+**Professional Diploma in Cybersecurity - Baze University**
+Security Principles and Concepts, Network Security, Access Management, Virtualization, Cryptography, Digital Forensics
 
 ---
 
