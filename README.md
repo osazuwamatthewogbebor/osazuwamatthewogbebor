@@ -33,8 +33,7 @@ I am a software engineer specializing in backend systems, distributed architectu
 * **Production Deployments** live across custom domains, Vercel, Netlify, and Render.
 * **Systems & Concurrency Rigor:** Hands-on experience designing double-entry ledgers, deterministic lock ordering, multi-tenant boundaries, and asynchronous queue workers.
 * **Core Stack:** Go, TypeScript/Node.js, Python, PostgreSQL, Redis, Docker, and React.
-* **Fellowship:** Trained through cybersecurity practice and the **01Edu / Learn2EarnNG Engineering Fellowship**.
-
+* 
 ---
 
 ## What I Deliver for Clients & Engineering Teams
